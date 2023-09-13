@@ -9,7 +9,7 @@ export default function Main(){
             <a href="index.html" className="main--website">paulohenrique.website</a>
             <div className="container--buttons">
             <Button imgSrc="mail.png" alt="Teste" color="white" width="20px">Email</Button>
-            <Button imgSrc="linkedin.png" alt="Linkedin" color="blue" width="20px">Linkedin</Button>
+            <Button imgSrc="linkedin-icon.png" alt="Linkedin" color="blue" width="20px">Linkedin</Button>
             </div>
             
             <div>

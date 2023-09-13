@@ -60,7 +60,7 @@ ul{
 .container--buttons{
   display: flex;
   flex-direction: row;
-  column-gap: 50px;
+  column-gap: 30px;
   justify-content: center;
   width: 100%;
 }
@@ -72,8 +72,10 @@ ul{
   column-gap: 10px;
   width: 100%;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 8px;
   height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .button-white{
   background-color: white;
@@ -88,7 +90,7 @@ ul{
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #646267;
+  background-color: #646267;
   width: 50px;
   justify-content: center;
 }
