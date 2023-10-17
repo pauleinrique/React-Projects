@@ -1,0 +1,48 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F4F6;
+  width: 100%;
+  
+}
+.app-container{
+  display: flex;
+  flex-direction: row;
+}
+.container{
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-card{
+  text-align: center;
+  height: 400px;
+  background-color: #FFFFFF;
+  border-radius: 9px;
+  margin-right: 15px;
+  margin: 20px;
+}
+.card--logo{
+  width: 20px;
+  height: 20px;
+  margin: auto 10px;
+}
+.card--text{
+}
+.card--photo{
+  width: 200px;
+  border-radius: 9px;
+  margin: 5px;
+}
+.info-group{
+  display: flex;
+  flex-direction: row;
+}
