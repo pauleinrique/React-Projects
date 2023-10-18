@@ -43,8 +43,9 @@ body {
 }
 .card--photo{
   width: 200px;
+  height: 160px;
   border-radius: 9px;
-  margin: 5px;
+  margin: 10px 5px;
 }
 .info-group{
   display: flex;
