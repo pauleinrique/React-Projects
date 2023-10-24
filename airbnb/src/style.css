@@ -16,6 +16,10 @@ body {
 .bold{
   font-weight: bold;
 }
+header{
+  width: 550px;
+  height: 70px;
+}
 .header--top{
   display: flex;
   flex-direction: row;
@@ -50,12 +54,27 @@ body {
   font-size: 16px;
 }
 .card--container{
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  width: 550px;
-  font-size: 12px;
-
 }
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--price {
+  margin-top: auto;
+}
+.cards--list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card--photo{
   width: 176px;
   height: 235px;
@@ -68,5 +87,4 @@ body {
 .card--stats{
   display: flex;
   align-items: center;
-  margin-top: 10px;
 }

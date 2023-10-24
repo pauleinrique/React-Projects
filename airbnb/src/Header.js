@@ -28,7 +28,10 @@ export default function Header(){
                 <p className="header--text">Join unique interactive activities 
                 led by one-of-a-kind hosts-all without leaving home.</p>
             </div>
-            {dataElements}
+            <section className="cards--list">
+                {dataElements}
+            </section>
+                
             
            
           
