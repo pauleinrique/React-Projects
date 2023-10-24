@@ -1,7 +1,22 @@
-import React from "react";
+import React from "react"
 import Card from "./Card"
+import Data from "./data"
+
 
 export default function Header(){
+    const dataElements = Data.map(item => {
+        return (
+            <Card img={item.coverImg} 
+            rating={item.stats.rating} 
+            reviewCount={item.stats.reviewCount} 
+            country={item.location} 
+            title={item.title} 
+            price={item.price} >
+
+            </Card>
+        )
+    })
+
     return(
         <header>
             <div className="header--top">
@@ -13,9 +28,8 @@ export default function Header(){
                 <p className="header--text">Join unique interactive activities 
                 led by one-of-a-kind hosts-all without leaving home.</p>
             </div>
+            {dataElements}
             
-            <Card img="image 12.png" rating="5.0" reviewCount="(6)" country="Brazil" 
-            title="Life lessons with Katie Zaferes" price="From $136" />
            
           
                 
