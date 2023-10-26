@@ -6,14 +6,11 @@ import Data from "./data"
 export default function Header(){
     const dataElements = Data.map(item => {
         return (
-            <Card img={item.coverImg} 
-            rating={item.stats.rating} 
-            reviewCount={item.stats.reviewCount} 
-            country={item.location} 
-            title={item.title} 
-            price={item.price} >
+            <Card 
+            key = {item.id}
+            item={item}
 
-            </Card>
+            />
         )
     })
 
