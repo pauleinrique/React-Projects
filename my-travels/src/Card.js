@@ -4,8 +4,8 @@ export default function Card(props){
     return(
         <div className="card--container">
         
-        <div className="card--img">
-            <img src={props.item.imgSrc}></img>
+        <div className="card--img--container">
+            <img src={props.item.imgSrc} className="card--img"></img>
         </div>
         
         <div className="card--content">
