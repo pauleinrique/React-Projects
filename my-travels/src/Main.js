@@ -15,8 +15,8 @@ const dataElements = Data.map(item => {
     )
 })
 return(
-    <section>
-        <p>{dataElements}</p>
+    <section className="card--list">
+        {dataElements}
     </section>
 )
 }

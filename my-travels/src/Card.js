@@ -11,7 +11,7 @@ export default function Card(props){
         <div className="card--content">
             <div className="card--top">
                 <img src="images/icon-location.png" alt="Icone world" className="header--icon"></img>
-                <p className="card--location">{props.item.country}</p>
+                <p className="card--country">{props.item.country}</p>
                 <a href={props.item.maps} className="card--maps">View on Google Maps</a>
             </div>
             <h3 className="card--location">{props.item.location}</h3>
