@@ -5,7 +5,7 @@ export default function Header(){
         <header className="header--container">
             <div className="header--items">
                 <img src="images/icon-global.png" alt="Icone world" className="header--icon"></img>
-                <h3 className="header--title">My travel journal</h3>
+                <h3 className="header--title">my travel journal.</h3>
             </div>
         </header>
     )
