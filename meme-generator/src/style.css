@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  width: 100%;
+}
+.header--container{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  background-color: #811FA6;
+  color: white;
+  padding: 5px 15px;
+  box-shadow: 0px 2.98256px 7.4564px rgb(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+.header--icon--container{
+  display: flex;
+  flex-direction: row;
+  gap: 0.325rem;
+  font-size: 13px;
+}
+.header--icon{
+  height: 40px;
+  margin: auto;
+
+}
+.header--course{
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
