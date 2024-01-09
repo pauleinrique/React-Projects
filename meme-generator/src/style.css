@@ -72,3 +72,12 @@ body {
   border: none;
   cursor: pointer;
 }
+.meme--image--container{
+  display: flex;
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+}
+.meme--image{
+  max-width: 600px;
+}
